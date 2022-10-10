@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B24C31CD44A90917CEEF8A0 /* Pods_Horos_HorosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F206BF2680DD9A849C081A25 /* Pods_Horos_HorosUITests.framework */; };
+		84351A499964FD01D61D23B5 /* Pods_Horos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C14464DB15CC2CFAAC5F01 /* Pods_Horos.framework */; };
 		85434C9228F48445005FD6D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434C9128F48445005FD6D0 /* AppDelegate.swift */; };
 		85434C9428F48445005FD6D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434C9328F48445005FD6D0 /* SceneDelegate.swift */; };
 		85434C9628F48445005FD6D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434C9528F48445005FD6D0 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		85434CA928F48448005FD6D0 /* HorosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434CA828F48448005FD6D0 /* HorosTests.swift */; };
 		85434CB328F48448005FD6D0 /* HorosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434CB228F48448005FD6D0 /* HorosUITests.swift */; };
 		85434CB528F48448005FD6D0 /* HorosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434CB428F48448005FD6D0 /* HorosUITestsLaunchTests.swift */; };
+		FC5E98FA6F66083CC5D92205 /* Pods_HorosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1586F10D2911CFF33518B9 /* Pods_HorosTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C1586F10D2911CFF33518B9 /* Pods_HorosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85434C8E28F48445005FD6D0 /* Horos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85434C9128F48445005FD6D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85434C9328F48445005FD6D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		85434CAE28F48448005FD6D0 /* HorosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85434CB228F48448005FD6D0 /* HorosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorosUITests.swift; sourceTree = "<group>"; };
 		85434CB428F48448005FD6D0 /* HorosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A75E920B5D60A4C630E0321A /* Pods-Horos-HorosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Horos-HorosUITests.release.xcconfig"; path = "Target Support Files/Pods-Horos-HorosUITests/Pods-Horos-HorosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B6AFAC746FA35A2CF3325033 /* Pods-Horos-HorosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Horos-HorosUITests.debug.xcconfig"; path = "Target Support Files/Pods-Horos-HorosUITests/Pods-Horos-HorosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C349339CB3CCDDC9714BC4AD /* Pods-HorosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorosTests.release.xcconfig"; path = "Target Support Files/Pods-HorosTests/Pods-HorosTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1BC9067B58050648DEA944A /* Pods-Horos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Horos.release.xcconfig"; path = "Target Support Files/Pods-Horos/Pods-Horos.release.xcconfig"; sourceTree = "<group>"; };
+		D4C14464DB15CC2CFAAC5F01 /* Pods_Horos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Horos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5E12821CD18853C311B4C7 /* Pods-HorosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorosTests.debug.xcconfig"; path = "Target Support Files/Pods-HorosTests/Pods-HorosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E97B99F303C56C74D38327F3 /* Pods-Horos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Horos.debug.xcconfig"; path = "Target Support Files/Pods-Horos/Pods-Horos.debug.xcconfig"; sourceTree = "<group>"; };
+		F206BF2680DD9A849C081A25 /* Pods_Horos_HorosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Horos_HorosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84351A499964FD01D61D23B5 /* Pods_Horos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5E98FA6F66083CC5D92205 /* Pods_HorosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B24C31CD44A90917CEEF8A0 /* Pods_Horos_HorosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EAB5A44F14D0E283C3472DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E97B99F303C56C74D38327F3 /* Pods-Horos.debug.xcconfig */,
+				D1BC9067B58050648DEA944A /* Pods-Horos.release.xcconfig */,
+				B6AFAC746FA35A2CF3325033 /* Pods-Horos-HorosUITests.debug.xcconfig */,
+				A75E920B5D60A4C630E0321A /* Pods-Horos-HorosUITests.release.xcconfig */,
+				DA5E12821CD18853C311B4C7 /* Pods-HorosTests.debug.xcconfig */,
+				C349339CB3CCDDC9714BC4AD /* Pods-HorosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B36ECE818381C1E3900C7C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4C14464DB15CC2CFAAC5F01 /* Pods_Horos.framework */,
+				F206BF2680DD9A849C081A25 /* Pods_Horos_HorosUITests.framework */,
+				7C1586F10D2911CFF33518B9 /* Pods_HorosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85434C8528F48445005FD6D0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				85434CA728F48448005FD6D0 /* HorosTests */,
 				85434CB128F48448005FD6D0 /* HorosUITests */,
 				85434C8F28F48445005FD6D0 /* Products */,
+				2EAB5A44F14D0E283C3472DA /* Pods */,
+				4B36ECE818381C1E3900C7C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85434CB828F48448005FD6D0 /* Build configuration list for PBXNativeTarget "Horos" */;
 			buildPhases = (
+				2CC6944C409F1BC77DCFBACF /* [CP] Check Pods Manifest.lock */,
 				85434C8A28F48445005FD6D0 /* Sources */,
 				85434C8B28F48445005FD6D0 /* Frameworks */,
 				85434C8C28F48445005FD6D0 /* Resources */,
+				85434CC128F48688005FD6D0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -148,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85434CBB28F48448005FD6D0 /* Build configuration list for PBXNativeTarget "HorosTests" */;
 			buildPhases = (
+				42B068E2F00BA583002889C6 /* [CP] Check Pods Manifest.lock */,
 				85434CA028F48448005FD6D0 /* Sources */,
 				85434CA128F48448005FD6D0 /* Frameworks */,
 				85434CA228F48448005FD6D0 /* Resources */,
@@ -166,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85434CBE28F48448005FD6D0 /* Build configuration list for PBXNativeTarget "HorosUITests" */;
 			buildPhases = (
+				05A4ECEA2A15450DFD9E459A /* [CP] Check Pods Manifest.lock */,
 				85434CAA28F48448005FD6D0 /* Sources */,
 				85434CAB28F48448005FD6D0 /* Frameworks */,
 				85434CAC28F48448005FD6D0 /* Resources */,
@@ -248,6 +292,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05A4ECEA2A15450DFD9E459A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Horos-HorosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CC6944C409F1BC77DCFBACF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Horos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42B068E2F00BA583002889C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HorosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85434CC128F48688005FD6D0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85434C8A28F48445005FD6D0 /* Sources */ = {
@@ -420,6 +550,7 @@
 		};
 		85434CB928F48448005FD6D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97B99F303C56C74D38327F3 /* Pods-Horos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +579,7 @@
 		};
 		85434CBA28F48448005FD6D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BC9067B58050648DEA944A /* Pods-Horos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,6 +608,7 @@
 		};
 		85434CBC28F48448005FD6D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA5E12821CD18853C311B4C7 /* Pods-HorosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +629,7 @@
 		};
 		85434CBD28F48448005FD6D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C349339CB3CCDDC9714BC4AD /* Pods-HorosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +650,7 @@
 		};
 		85434CBF28F48448005FD6D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AFAC746FA35A2CF3325033 /* Pods-Horos-HorosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +669,7 @@
 		};
 		85434CC028F48448005FD6D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75E920B5D60A4C630E0321A /* Pods-Horos-HorosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
