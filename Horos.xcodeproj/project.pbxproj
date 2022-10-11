@@ -17,6 +17,7 @@
 		85434CA928F48448005FD6D0 /* HorosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434CA828F48448005FD6D0 /* HorosTests.swift */; };
 		85434CB328F48448005FD6D0 /* HorosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434CB228F48448005FD6D0 /* HorosUITests.swift */; };
 		85434CB528F48448005FD6D0 /* HorosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434CB428F48448005FD6D0 /* HorosUITestsLaunchTests.swift */; };
+		85434CC728F518D9005FD6D0 /* Counselling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85434CC628F518D9005FD6D0 /* Counselling.swift */; };
 		FC5E98FA6F66083CC5D92205 /* Pods_HorosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1586F10D2911CFF33518B9 /* Pods_HorosTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		85434CAE28F48448005FD6D0 /* HorosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85434CB228F48448005FD6D0 /* HorosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorosUITests.swift; sourceTree = "<group>"; };
 		85434CB428F48448005FD6D0 /* HorosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85434CC628F518D9005FD6D0 /* Counselling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counselling.swift; sourceTree = "<group>"; };
 		A75E920B5D60A4C630E0321A /* Pods-Horos-HorosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Horos-HorosUITests.release.xcconfig"; path = "Target Support Files/Pods-Horos-HorosUITests/Pods-Horos-HorosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B6AFAC746FA35A2CF3325033 /* Pods-Horos-HorosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Horos-HorosUITests.debug.xcconfig"; path = "Target Support Files/Pods-Horos-HorosUITests/Pods-Horos-HorosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C349339CB3CCDDC9714BC4AD /* Pods-HorosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorosTests.release.xcconfig"; path = "Target Support Files/Pods-HorosTests/Pods-HorosTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +139,10 @@
 		85434C9028F48445005FD6D0 /* Horos */ = {
 			isa = PBXGroup;
 			children = (
+				85434CC528F4F6BA005FD6D0 /* Service */,
+				85434CC428F4F507005FD6D0 /* ViewModels */,
+				85434CC328F4F502005FD6D0 /* Views */,
+				85434CC228F4F4FD005FD6D0 /* Models */,
 				85434C9128F48445005FD6D0 /* AppDelegate.swift */,
 				85434C9328F48445005FD6D0 /* SceneDelegate.swift */,
 				85434C9528F48445005FD6D0 /* ViewController.swift */,
@@ -162,6 +168,35 @@
 				85434CB428F48448005FD6D0 /* HorosUITestsLaunchTests.swift */,
 			);
 			path = HorosUITests;
+			sourceTree = "<group>";
+		};
+		85434CC228F4F4FD005FD6D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85434CC628F518D9005FD6D0 /* Counselling.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85434CC328F4F502005FD6D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85434CC428F4F507005FD6D0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		85434CC528F4F6BA005FD6D0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,6 +422,7 @@
 				85434C9628F48445005FD6D0 /* ViewController.swift in Sources */,
 				85434C9228F48445005FD6D0 /* AppDelegate.swift in Sources */,
 				85434C9428F48445005FD6D0 /* SceneDelegate.swift in Sources */,
+				85434CC728F518D9005FD6D0 /* Counselling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
